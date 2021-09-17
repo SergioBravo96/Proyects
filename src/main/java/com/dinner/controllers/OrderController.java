@@ -82,6 +82,7 @@ public class OrderController {
 					orderService.saveOrder(order);
 					detail.setId(order.getId_order());
 
+					
 				}
 
 				detail.setSubOrder((long) this.number);
